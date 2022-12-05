@@ -25,22 +25,26 @@ nav .one{
   color: #38b48b;
 }
 .kadai-box img{
-  width: 30%;
-  display: flex;
+  width: 70%;
+  border-radius: 10px;
 }
 .kadai-box .image{
-  width: 640px; /*画像サイズ指定*/
   margin: 0;
   padding: 0;
   overflow: hidden;
   position: relative;
 }
+.kadai-box{
+  display: flex;
+}
 .d-box{
   margin: 20px;
   background: #fff;
-  padding: 10px;
   width: 70%;
   border-radius: 10px;
+}
+.h-box{
+  display: flex;
 }
 main .one{
   text-align: center;
@@ -68,8 +72,8 @@ aside{
   text-align: center;
   color: #6c6b6b;
 }
-.social i {
-  margin: auto;
+.social{
+  display: inline-block;
   color: #6c6b6b;
 }
 @media screen and (max-width: 768px)
