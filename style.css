@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  text-align: center;
+  color: #fff;
+  background: darkgreen;
+  padding: 30px;
+}
+header h1{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+nav .one{
+  color: #38b48b;
+}
+.kadai-box img{
+  width: 30%;
+  display: flex;
+}
+.kadai-box .image{
+  width: 640px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.d-box{
+  margin: 20px;
+  background: #fff;
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+}
+main .one{
+  text-align: center;
+  background: #ecfcdf;
+}
+main .one h2{
+  font-size: 20px;
+  padding: 10px 10px;
+  color: #6c6b6b
+}
+.one div{
+  text-align: left;
+  padding: 10px 40px 40px;
+}
+p{
+  color: #6c6b6b;
+}
+footer{
+  text-align: center;
+  color: #fff;
+  background: darkgreen;
+  padding: 20px 20px;
+}
+aside{
+  text-align: center;
+  color: #6c6b6b;
+}
+.social i {
+  margin: auto;
+  color: #6c6b6b;
+}
+@media screen and (max-width: 768px)
